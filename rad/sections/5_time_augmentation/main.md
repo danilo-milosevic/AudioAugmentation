@@ -6,6 +6,8 @@
 
 {{include sections/5_time_augmentation/3_random_noise/main.md}}
 
+\newpage
+
 {{include sections/5_time_augmentation/4_time_shift/main.md}}
 
 {{include sections/5_time_augmentation/5_random_gain/main.md}}

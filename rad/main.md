@@ -27,8 +27,6 @@ header-includes: |
 
 {{include sections/5_time_augmentation/main.md}}
 
-\newpage
-
 {{include sections/6_freq_augmentation/main.md}}
 
 \newpage

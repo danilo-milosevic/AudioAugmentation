@@ -1,7 +1,7 @@
 {
   "editor.formatOnSave": false,
   "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 100,
+  "files.autoSaveDelay": 1000,
   "emeraldwalk.runonsave": {
     "commands": [
       {
