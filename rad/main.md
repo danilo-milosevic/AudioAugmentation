@@ -1,10 +1,11 @@
 ---
 header-includes: |
   \usepackage{graphicx}
+  \usepackage[a4paper, total={6in, 8in}]{geometry}
   \renewcommand{\contentsname}{Sadržaj}
 ---
 
-{{include sections/front/main.md}}
+{{include sections/1_front/main.md}}
 
 \newpage
 
@@ -12,8 +13,28 @@ header-includes: |
 
 \newpage 
 
-{{include sections/introduction/main.md}}
+{{include sections/2_introduction/main.md}}
 
 \newpage 
 
-{{include sections/audio_basics/main.md}}
+{{include sections/3_audio_basics/main.md}}
+
+\newpage 
+
+{{include sections/4_augmentation_basics/main.md}}
+
+\newpage
+
+{{include sections/5_time_augmentation/main.md}}
+
+\newpage
+
+{{include sections/6_freq_augmentation/main.md}}
+
+\newpage
+
+{{include sections/7_advanced_augmentation/main.md}}
+
+\newpage
+
+{{include sections/8_eval_augmentation/main.md}}
