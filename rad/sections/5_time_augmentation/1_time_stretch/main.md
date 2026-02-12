@@ -71,5 +71,5 @@ Time stretching je koristan za
         \hline
     \end{tabular}
     \caption{Prednosti i nedostaci time shiftinga}
-    \label{tab:timeshift_procon}
+    \label{tab:timestretch_procon}
     \end{table}
