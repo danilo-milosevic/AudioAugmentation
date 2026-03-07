@@ -36,3 +36,7 @@ header-includes: |
 \newpage
 
 {{include sections/8_eval_augmentation/main.md}}
+
+\newpage
+
+{{include sections/9_literature/main.md}}
