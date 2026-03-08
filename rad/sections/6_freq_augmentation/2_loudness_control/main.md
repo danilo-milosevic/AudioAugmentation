@@ -8,7 +8,7 @@ Kod random gain-a smo nasumično pojačavali amplitude nekim faktorom $g$, sempl
 \centering
 \includegraphics[width=5cm]{figures/5_freq_augm/hearing.png}
 \caption{Osetljivost ljudskog uha na različite frekvencije}
-\label{fig:spec-pp}
+\label{fig:freq_ear}
 \end{figure}
 
 Kontrola glasnoće, odnosno *loudness control* uzima u obzir osetljivost ljudskog uha i skalira spektar prema perceptualnim krivama.
@@ -41,7 +41,7 @@ Ova metoda se primenjuje za
 \centering
 \includegraphics[width=7cm]{figures/5_freq_augm/aweight.jpg}
 \caption{A-weighting kriva}
-\label{fig:spec-pp}
+\label{fig:aweight}
 \end{figure}
 
 \begin{table}[h]

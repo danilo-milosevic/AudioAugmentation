@@ -50,15 +50,17 @@ Postoje više vrste CutMix-a, zavisno od toga na kojim se primerima u trening sk
 
 \begin{table}[h]
 \centering
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{|>{\centering\arraybackslash}p{8cm}|>{\centering\arraybackslash}p{8cm}|}
     \hline
-    Prednosti & Nedostaci \\
+    \textbf{Prednosti} & \textbf{Nedostaci} \\
     \hline
-    Povećanje raznovrsnosti bez dodatnih podataka & Kreira nerealistične primere \\
-    & Nije pogodno za sve zadatke (npr prepoznavanje govora) \\
+    Jednostavna augmentacija za razumevanje i implementaciju &
+    Ne čini model robustnijim na kompleksnije adverserijalne primere \\
+
+    Služi kao i regularizacija &
+    Računski skupo, s obzirom da vršimo trening dva puta \\
     \hline
 \end{tabular}
 \caption{Prednosti i nedostaci MixUp-a i CutMix-a}
 \label{tab:mixup_procon}
 \end{table}
-
