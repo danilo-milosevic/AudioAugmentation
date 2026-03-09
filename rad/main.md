@@ -34,8 +34,6 @@ header-includes: |
 
 {{include sections/7_advanced_augmentation/main.md}}
 
-\newpage
-
 {{include sections/8_eval_augmentation/main.md}}
 
 \newpage
