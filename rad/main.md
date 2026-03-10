@@ -38,4 +38,7 @@ header-includes: |
 
 \newpage
 
-{{include sections/9_literature/main.md}}
+{{include sections/9_conclusion/main.md}}
+
+\newpage
+{{include sections/10_literature/main.md}}
