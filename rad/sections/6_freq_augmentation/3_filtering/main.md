@@ -58,7 +58,12 @@ Nastaje atenuacijom više različitih raspona frekvencija
 $$
 {[f_{L_1}, f_{H_1}], [f_{L_2}, f_{H_2}], [f_{L_3}, f_{H_3}], \dots [f_{L_n}, f_{H_n}]}
 $$
-zbog čega signal dobija izgled češlja
+zbog čega signal dobija izgled češlja. U praksi se comb filter implementira dodavanjem signala koji je pomeren vremenski originalnom signalu, tj formulom
+
+$$
+y[n] = x[n] + \alpha x[n-K]
+$$
+gde je $\alpha$ parametar koji kontroliše koliko se dodaje vremenski pomeren signal a $K$ predstavlja zakašnjenje, tj *delay*.
 
 \begin{figure}[ht]
 \centering

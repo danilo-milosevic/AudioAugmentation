@@ -13,8 +13,6 @@ Na slici ispod možemo videti primer adverserijalne perturbacije na primeru slik
 
 Međutim ručno definisati adverserijalne perturbacije za svaki trening primer je nepraktično, pogotovo kod većih skupova podataka, tako da je potrebno generisati algoritamske perturbacije. Razmotrićemo ispod dve tehnike.
 
-\newpage
-
 ### 6.3.1 Fast Gradient Sign Method
 
 Fast Gradient Sign Method ili *FGSM* je primer white-box napada, što znači da zahteva znanje arhitekture i parametara modela. Ideja je da se originalnom podatku doda mala količina šuma baziranog na gradientu loss funkcije po ulaznom vektoru.
